@@ -34,3 +34,10 @@ Ce projet est une démonstration pratique de l'utilisation des `BroadcastReceive
 
 - **Désenregistrement (Unregistering)** : Les receivers dynamiques sont correctement désenregistrés dans la méthode `onDestroy()` de l'Activité pour éviter les fuites de mémoire.
 - **Sécurité (Exported)** : Les receivers déclarés dans le manifest utilisent l'attribut `android:exported="false"` (depuis Android 12) pour éviter que des applications tierces ne leur envoient des broadcasts non sollicités, garantissant ainsi une meilleure sécurité.
+
+## Video Demo
+
+https://github.com/user-attachments/assets/00bf3eab-64ca-4871-ab25-58783c3d035b
+
+
+
